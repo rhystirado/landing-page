@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -9,35 +15,82 @@ body {
   flex-direction: column;
 }
 
+.header,
 .title-section,
 .content-section,
 .quote-section,
+.signup-section,
 .footer {
+  padding: 0 120px;
+}
+
+
+.title-section,
+.content-section,
+.quote-section,
+.footer-section {
   flex: 1;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+}
+
+.header-logo {
+  color: #f9faf8;
+  font-size: 24px;
 }
 
 .header-links {
   display: flex;
   gap: 16px;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .title-section {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #1f2937;;
 }
 
 .website-description {
-  width: 40%;
+  flex: 1;
+}
+
+.main-title {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.main-description {
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .title-image {
-  width: 40%;
+  flex: 1;
+  background-color: gray;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.content-title {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .content-section {
@@ -47,12 +100,26 @@ body {
 }
 
 .content-container {
-  display: flex;
+  display: flex; 
 }
 
 .content-card {
   max-width: 150px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.content-image {
+  flex-shrink: 1;
+  border: 4px solid #3882f6;
+  width: 100px;
+  height: 100px;
+}
+
+.content-text {
+  color: #1f2937;
 }
 
 .quote-section {
@@ -60,25 +127,56 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.quote-text {
+  font-style: italic;
+  font-weight: lighter;
 }
 
 .quote-author {
   align-self: flex-end;
+  font-weight: bold;
 }
 
-.footer {
+.footer-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .signup-section {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .signup-banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #3882f6;
 }
 
+.signup-banner .signup-button {
+  border: solid 1px #f9faf8;
+}
+
+.signup-title {
+  color: #f9faf8;
+}
+
+.signup-text {
+  color: #e5e7eb;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
