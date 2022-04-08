@@ -102,6 +102,7 @@ body {
   background-color: #3882f6;
   color: #f9faf8;
   padding: 4px 16px;
+  border-radius: 5px;
 }
 
 .website-description .signup-button {
@@ -149,6 +150,7 @@ body {
   border: 2px solid #3882f6;
   width: 115px;
   height: 115px;
+  border-radius: 10px;
 }
 
 .content-text {
@@ -210,6 +212,7 @@ body {
   align-items: center;
   background-color: #3882f6;
   padding: 24px 72px;
+  border-radius: 5px;
 }
 
 .signup-banner .signup-button {
