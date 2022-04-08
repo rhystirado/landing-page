@@ -5,8 +5,10 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
   margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -19,8 +21,7 @@ body {
 .title-section,
 .content-section,
 .quote-section,
-.signup-section,
-.footer {
+.signup-section {
   padding: 0 120px;
 }
 
@@ -42,6 +43,7 @@ body {
 .header-logo {
   color: #f9faf8;
   font-size: 24px;
+  font-weight: bold;
 }
 
 .header-links {
@@ -55,7 +57,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1f2937;;
+  background-color: #1f2937;
 }
 
 .website-description {
@@ -85,6 +87,7 @@ body {
 .signup-button {
   background-color: #3882f6;
   color: #f9faf8;
+  padding: 4px 16px;
 }
 
 .content-title {
@@ -134,11 +137,13 @@ body {
 .quote-text {
   font-style: italic;
   font-weight: lighter;
+  font-size: 36px;
 }
 
 .quote-author {
   align-self: flex-end;
   font-weight: bold;
+  font-size: 18px;
 }
 
 .footer-section {
@@ -149,8 +154,9 @@ body {
 .signup-section {
   flex: 1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 }
 
 .signup-banner {
@@ -158,6 +164,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #3882f6;
+  padding: 24px 72px;
 }
 
 .signup-banner .signup-button {
@@ -166,10 +173,13 @@ body {
 
 .signup-title {
   color: #f9faf8;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .signup-text {
   color: #e5e7eb;
+  font-size: 12px;
 }
 
 .footer {
@@ -179,4 +189,6 @@ body {
   gap: 8px;
   background-color: #1f2937;
   color: #e5e7eb;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
