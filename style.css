@@ -65,3 +65,20 @@ body {
 .quote-author {
   align-self: flex-end;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-section {
+  flex: 1;
+}
+
+.signup-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
