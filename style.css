@@ -15,3 +15,27 @@ body {
 .footer {
   flex: 1;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+  gap: 16px;
+}
+
+.title-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.website-description {
+  width: 40%;
+}
+
+.title-image {
+  width: 40%;
+}
