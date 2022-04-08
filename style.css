@@ -66,7 +66,8 @@ body {
 
 .title-container {
   display: flex;
-  gap: 32px;
+  padding: 64px 0;
+  gap: 64px;
 }
 
 .website-description {
@@ -74,6 +75,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 8px;
 }
 
 .main-title {
@@ -84,7 +86,7 @@ body {
 
 .main-description {
   color: #e5e7eb;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .title-image {
@@ -107,7 +109,7 @@ body {
 }
 
 .content-section {
-  
+  padding-bottom: 64px;
 }
 
 .content-container {
@@ -122,13 +124,12 @@ body {
   color: #1f2937;
   font-size: 28px;
   font-weight: bold;
-  margin: 32px 0;
+  padding: 32px 0;
 }
 
 .content-card-container {
   display: flex;
   flex: 1;
-  /* justify-content: space-around; */
   flex-wrap: wrap;
   gap: 32px;
 }
@@ -158,13 +159,19 @@ body {
 
 .quote-section {
   background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .quote-container {
   display: flex;
   flex-direction: column;
+  max-width: 572px;
   align-items: center;
   justify-content: center;
+  padding: 64px 32px;
   color: #1f2937;
 }
 
@@ -193,6 +200,10 @@ body {
   align-items: stretch;
 }
 
+.signup-container {
+  padding: 48px 0;
+}
+
 .signup-banner {
   display: flex;
   justify-content: space-between;
@@ -213,7 +224,7 @@ body {
 
 .signup-text {
   color: #e5e7eb;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .footer {
