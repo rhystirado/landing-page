@@ -101,15 +101,19 @@ button {
   align-self: flex-start;
 }
 
-/* Content styling */
-
+/* Content styling and layout */
 .content {
   color: #1f2937;
+  padding-bottom: 80px;
 }
 
 .content-title {
   font-size: 36px;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .content-subtext {
@@ -121,18 +125,6 @@ button {
   border-radius: 10px;
   width: 150px;
   height: 150px;
-}
-
-/* Content layout */
-.content {
-  padding-bottom: 80px;
-}
-
-.content-title {
-  display: flex;
-  justify-content: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 
 .content-cards {
@@ -150,9 +142,13 @@ button {
   gap: 8px;
 }
 
-/* Quote styling */
+/* Quote styling and layout */
 .quote {
   background-color: #e5e7eb;
+  padding: 80px 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .quote-text,
@@ -169,25 +165,18 @@ button {
 .quote-author {
   font-size: 18px;
   font-weight: bold;
-}
-
-/* Quote layout */
-.quote {
-  padding: 80px 160px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.quote-author {
   align-self: flex-end;
 }
 
-/* Sign up styling */
+/* Sign up styling and layout */
 .signup {
   background-color: #3882f6;
   border-radius: 5px;
   color: #f9faf8;
+  margin: 80px;
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .signup-title {
@@ -201,14 +190,7 @@ button {
 
 .signup-button {
   border: 2px solid #f9faf8;
-}
-
-/* Sign up layout */
-.signup {
-  margin: 80px;
-  padding: 40px 80px;
-  display: flex;
-  justify-content: space-between;
+  align-self: center;
 }
 
 .signup-content {
@@ -217,18 +199,10 @@ button {
   gap: 2px;
 }
 
-.signup-button {
-  align-self: center;
-}
-
-/* Footer styling */
+/* Footer styling and layout */
 .footer {
   color: #f9faf8;
   font-size: 16px;
-}
-
-/* Footer layout */
-.footer {
   display: flex;
   justify-content: center;
   align-items: center;
