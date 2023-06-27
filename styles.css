@@ -4,7 +4,6 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Roboto", "Helvetica", "sans-serif";
-  /* padding: 80px; */
 }
 
 ul {
@@ -20,12 +19,12 @@ a {
 button {
   padding: 4px 16px;
   margin: 0;
-  outline: none;
   border: none;
   border-radius: 5px;
   background-color: #3882f6;
   font-size: 18px;
-  color: #e5e7eb;
+  color: #f9faf8;
+  flex-shrink: 0;
 }
 
 .header,
@@ -182,4 +181,56 @@ button {
 
 .quote-author {
   align-self: flex-end;
+}
+
+/* Sign up styling */
+.signup {
+  background-color: #3882f6;
+  border-radius: 5px;
+  color: #f9faf8;
+}
+
+.signup-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.signup-text {
+  font-size: 16px;
+}
+
+.signup-button {
+  border: 2px solid #f9faf8;
+}
+
+/* Sign up layout */
+.signup {
+  margin: 80px;
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.signup-button {
+  align-self: center;
+}
+
+/* Footer styling */
+.footer {
+  color: #f9faf8;
+  font-size: 16px;
+}
+
+/* Footer layout */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
 }
