@@ -99,7 +99,7 @@ button {
 }
 
 .hero-button {
-  align-self: baseline;
+  align-self: flex-start;
 }
 
 /* Content styling */
@@ -149,4 +149,37 @@ button {
   text-align: center;
   width: 150px;
   gap: 8px;
+}
+
+/* Quote styling */
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-text,
+.quote-author {
+  color: #1f2937;
+}
+
+.quote-text {
+  font-size: 24px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Quote layout */
+.quote {
+  padding: 80px 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.quote-author {
+  align-self: flex-end;
 }
